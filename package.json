@@ -1,0 +1,35 @@
+{
+  "name": "@willowswt/youtube-transcript-leads-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for extracting YouTube transcripts, timestamped RAG chunks, and verified creator business inquiry emails and sponsor links via Apify Actors.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "youtube-transcript-leads-mcp": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "start:http": "node src/index.js --http"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "youtube",
+    "transcript",
+    "rag",
+    "lead-generation",
+    "influencer-marketing",
+    "apify"
+  ],
+  "homepage": "https://apify.com/church_of_loujess/youtube-transcript-rag-scraper",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/willowswt/youtube-transcript-leads-mcp.git"
+  },
+  "author": "Church of LouJess",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.willowswt/youtube-transcript-leads-mcp",
+  "title": "YouTube Transcript RAG & Channel Email Leads MCP",
+  "description": "Extract timestamped YouTube transcripts, RAG chunks, and creator business emails via Apify.",
+  "version": "1.0.0",
+  "websiteUrl": "https://apify.com/church_of_loujess/youtube-transcript-rag-scraper",
+  "repository": {
+    "url": "https://github.com/willowswt/youtube-transcript-leads-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com/?actors=church_of_loujess/youtube-transcript-rag-scraper",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer <YOUR_APIFY_API_TOKEN> (free $5/mo credit at https://console.apify.com/settings/integrations)",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
